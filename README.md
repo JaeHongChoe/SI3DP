@@ -1,6 +1,6 @@
-# MMC image classification base-kernel
+# SI3DP
 
-MMC 연구실의 image classification 연구실험을 위한 base-kernel. 
+SI3DP: Source Identification Challenges and Benchmark for Consumer-Level 3D Printer Forensics
 
 
 ## SOFTWARE 
