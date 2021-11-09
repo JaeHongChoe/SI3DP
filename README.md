@@ -31,7 +31,10 @@ cuddn 7.6.5
 
 ## DATA SETUP 
 
+Dataset download link will be released soon. 
+
 Based on the `./data` sub-path `SI3DP/{train_close,train_full,train_close.csv,train_full.csv}`
+
 
 1. Printer, Filament, Quality task 
 
@@ -48,7 +51,7 @@ Based on the `./data` sub-path `SI3DP/{train_close,train_full,train_close.csv,tr
 ## Training
 
 
-It was written based on the SIIM-ISIC Melanoma Classification kernel structure. https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175412
+The code was written based on the SIIM-ISIC Melanoma Classification kernel structure. https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175412
 
 
 
