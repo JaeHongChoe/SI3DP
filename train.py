@@ -45,41 +45,41 @@ ex)Printer task
 
 <Closed up Setting>
 - Printer task
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 1 --img-type close
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 1 --img-type close
 - Filament task
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 2 --img-type close
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 2 --img-type close
 - Quality task
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 3 --img-type close
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 3 --img-type close
 - Device task 
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 4 --img-type close
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 4 --img-type close
 - Reprint task
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 5 --img-type close
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 5 --img-type close
 
 <Fullshot Setting>
 - Printer task
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 1 --img-type full
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 1 --img-type full
 - Filament task
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 2 --img-type full
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 2 --img-type full
 - Quality task 
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 3 --img-type full
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 3 --img-type full
 - Device task
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 4 --img-type full 
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 4 --img-type full 
 - Reprint task
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 5 --img-type full
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 5 --img-type full
 
 <Multi-Task Setting>
 - Multi-Task(Device & Printer)
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close --side-task-type 1 --batch-size 32 --n-epochs 50
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close --side-task-type 1 --batch-size 32 --n-epochs 50
 - Multi-Task(Device & Quality)
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close --side-task-type 3 --batch-size 32 --n-epochs 50
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close --side-task-type 3 --batch-size 32 --n-epochs 50
 
 <(Multi or Single) Modal-Task  Setting>
 - Single-Modal-Task(Device)
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --batch-size 32 --n-epochs 50
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --batch-size 32 --n-epochs 50
 - Multi-Modal-Task(Device & Printer)
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 3 --batch-size 32 --epoch 50
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 3 --batch-size 32 --epoch 50
 - Multi-Modal-Task(Device & Quality)
-python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 1 --batch-size 32 --epoch 50
+python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 1 --batch-size 32 --epoch 50
 '''
 
 

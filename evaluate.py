@@ -39,41 +39,41 @@ ex)Printer task
 #### 3D Project Terminal version #### 
 <Closed up Setting>
 - Printer task
-python evaluate.py --kernel-type printer_close --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 1 --img-type close
+python evaluate.py --kernel-type printer_close --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 1 --img-type close
 - Filament task
-python evaluate.py --kernel-type filament_close --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 2 --img-type close
+python evaluate.py --kernel-type filament_close --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 2 --img-type close
 - Quality task
-python evaluate.py --kernel-type quality_close --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 3 --img-type close
+python evaluate.py --kernel-type quality_close --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 3 --img-type close
 - Device task
-python evaluate.py --kernel-type device_close --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close
+python evaluate.py --kernel-type device_close --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close
 - Reprint task
-python evaluate.py --kernel-type reprint_close --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 5 --img-type close
+python evaluate.py --kernel-type reprint_close --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 5 --img-type close
 
 <Fullshot Setting>
 - Printer task
-python evaluate.py --kernel-type printer_full --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 1 --img-type full
+python evaluate.py --kernel-type printer_full --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 1 --img-type full
 - Filament task
-python evaluate.py --kernel-type filament_full --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 2 --img-type full
+python evaluate.py --kernel-type filament_full --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 2 --img-type full
 - Quality task
-python evaluate.py --kernel-type quality_full --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 3 --img-type full
+python evaluate.py --kernel-type quality_full --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 3 --img-type full
 - Device task
-python evaluate.py --kernel-type device_full --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type full
+python evaluate.py --kernel-type device_full --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type full
 - Reprint task
-python evaluate.py --kernel-type reprint_full --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 5 --img-type full
+python evaluate.py --kernel-type reprint_full --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 5 --img-type full
 
 <Multi-Task Setting>
 - Multi-Task(Device & Printer)
-python evaluate.py --kernel-type multi_d_p --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close --side-task-type 1 --batch-size 32 --n-epochs 50
+python evaluate.py --kernel-type multi_d_p --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close --side-task-type 1 --batch-size 32 --n-epochs 50
 - Multi-Task(Device & Quality)
-python evaluate.py --kernel-type multi_d_q --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close --side-task-type 3 --batch-size 32 --n-epochs 50
+python evaluate.py --kernel-type multi_d_q --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type close --side-task-type 3 --batch-size 32 --n-epochs 50
 
 <(Multi or Single) Modal-Task  Setting>
 - Single-Modal-Task(Device)
-python evaluate.py --kernel-type modal_d --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --batch-size 32 --n-epochs 50
+python evaluate.py --kernel-type modal_d --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --batch-size 32 --n-epochs 50
 - Multi-Modal-Task(Device & Printer)
-python evaluate.py --kernel-type modal_d_p --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 1 --batch-size 32 --epoch 50
+python evaluate.py --kernel-type modal_d_p --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 1 --batch-size 32 --epoch 50
 - Multi-Modal-Task(Device & Quality)
-python evaluate.py --kernel-type modal_d_q --data-folder sampled_face/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 3 --batch-size 32 --epoch 50
+python evaluate.py --kernel-type modal_d_q --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 3 --batch-size 32 --epoch 50
 '''
 
 
