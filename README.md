@@ -30,11 +30,15 @@ cuddn 7.6.5
         pip install git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
 
 ## DATA SETUP 
+Click [here](https://forms.gle/jCEDjdL5caaU1QrRA) to download Dataset and csv.
 
-Dataset download link will be released soon. 
+Download [7zip](https://www.7-zip.org) and unzip your dataset. Create a `data` folder with `SI3DP` folder as a sub-path.
+
+Please move the full shot and close-up dataset folders in the SI3DP folder.
 
 Based on the `./data` sub-path `SI3DP/{train_close,train_full,train_close.csv,train_full.csv}`
 
+------
 
 1. Printer, Filament, Quality task 
 
@@ -51,13 +55,13 @@ Based on the `./data` sub-path `SI3DP/{train_close,train_full,train_close.csv,tr
 ## Training
 
 
-The code was written based on the SIIM-ISIC Melanoma Classification kernel structure. https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175412
+It was written based on the SIIM-ISIC Melanoma Classification kernel structure. https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175412
 
 
 
 When using Terminal, directly execute the code below after setting the path
 
-        python train.py --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 1 --img-type close
+        python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 1 --img-type close
 
 When using pycharm:
 
@@ -66,7 +70,7 @@ When using pycharm:
         -> Check train.py in Script path
         -> Go to parameters and enter the following
 
-        --kernel-type test --data-folder sampled_face/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 1 --img-type close
+        --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3_ns --n-epochs 50 --batch-size 32 --task-type 1 --img-type close
 
         -> Running/debugging after check Apply button
 
