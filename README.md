@@ -3,7 +3,7 @@
 SI3DP: Source Identification Challenges and Benchmark for Consumer-Level 3D Printer Forensics, **ACM Multimedia 2021**
 
 
-![SI3DP](https://github.com/juhou/SI3DP/blob/main/si3dp.png)
+![SI3DP](https://github.com/juhou/SI3DP/blob/main/si3dp_overview.png)
 
 SI3DP lays the foundation for a new 3D content market by establishing a content security framework using databases and benchmarks for in-depth research on source identification of 3D printed objects. The proposed benchmark, SI3DP dataset, offers a more generalized multimedia forensic technique. Assuming that identifying the source of a 3D printing object can arise from various invisible traces occurring in the printing process, we obtain close-up images, full object images from 252 printed objects from 18 different printing setups. We then propose a benchmark with five challenging tasks such as device-level identification and scan-and-reprint detection using the provided dataset. Our baseline shows that the printer type and its attributes can be identified based on the microscopic difference of surface texture. Contrary to the conventional belief that only microscopic views such as close-up images are useful to identify printer model, we also achieved a certain level of performance even at a relatively macroscopic point of view. We then propose a multitask-multimodal architecture for device-level identification task to exploit rich knowledge from different image modality and task. The SI3DP dataset can promote future in-depth research studies related to digital forensics and intellectual property protection.
 
