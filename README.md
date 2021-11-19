@@ -26,7 +26,7 @@ CUDA Version 11.0
 
 3. Install various necessary packages
 
-        pip install opencv-contrib-python kaggle resnest geffnet albumentations pillow scikit-learn scikit-image pandas tqdm pretrainedmodels
+        pip install opencv-contrib-python resnest geffnet albumentations pillow scikit-learn scikit-image pandas tqdm pretrainedmodels
         
 4. Install git and LR related packages
 
