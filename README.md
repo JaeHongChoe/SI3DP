@@ -10,8 +10,6 @@ Python 3.7.0 ~ 3.7.9
 
 CUDA Version 11.0
 
-cuddn 7.6.5
-
 (See details of python package in `requirements.txt`)
 
 1. Nvidia driver, CUDA toolkit 11.0, install Anaconda
@@ -30,7 +28,8 @@ cuddn 7.6.5
         pip install git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
 
 ## DATA SETUP 
-Click [here](https://forms.gle/jCEDjdL5caaU1QrRA) to download Dataset and csv.
+
+Click [here](https://forms.gle/jCEDjdL5caaU1QrRA) to submit your information to download Dataset and csv.
 
 Download [7zip](https://www.7-zip.org) and unzip your dataset. Create a `data` folder with `SI3DP` folder as a sub-path.
 
@@ -53,11 +52,6 @@ Based on the `./data` sub-path `SI3DP/{train_close,train_full,train_close.csv,tr
         ./data/SI3DP/train_(close / full)_reprint.csv
 
 ## Training
-
-
-It was written based on the SIIM-ISIC Melanoma Classification kernel structure. https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175412
-
-
 
 When using Terminal, directly execute the code below after setting the path
 
@@ -118,7 +112,7 @@ python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficient
 python train.py --kernel-type test --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 1 --batch-size 32 --epoch 50
 ```
 
-## (Optional) Evaluating
+## Evaluating
 
 The learned model is subjected to k-fold cross validation. You can use the model used for training earlier, or you can evaluate it by specifying the model in `--model-dir`.
 
@@ -167,8 +161,9 @@ python evaluate.py --kernel-type modal_d_q --data-folder SI3DP/ --enet-type tf_e
 
 
 
-## BibTeX
-If you want to cite our Datasets [paper](https://dl.acm.org/doi/10.1145/3474085.3475316) and code, you can use these:
+## Acknowledgement 
+
+Overall code structure is borrowed from [this code](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175412). If you want to cite our Datasets [paper](https://dl.acm.org/doi/10.1145/3474085.3475316) and code, you can use these:
 
 ```bibtex
 @inproceedings{shim2021si3dp,
