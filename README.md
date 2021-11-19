@@ -163,3 +163,19 @@ python evaluate.py --kernel-type modal_d_p --data-folder SI3DP/ --enet-type tf_e
 - Multi-Modal-Task(Device & Quality)
 python evaluate.py --kernel-type modal_d_q --data-folder SI3DP/ --enet-type tf_efficientnet_b3 --task-type 4 --img-type both --side-task-type 3 --batch-size 32 --epoch 50
 ```
+
+
+
+
+## BibTeX
+If you want to cite our Datasets [paper](https://dl.acm.org/doi/10.1145/3474085.3475316) and code, you can use these:
+
+```bibtex
+@inproceedings{shim2021si3dp,
+  title={SI3DP: Source Identification Challenges and Benchmark for Consumer-Level 3D Printer Forensics},
+  author={Shim, Bo Seok and Shin, Yoo Seung and Park, Seong Wook and Hou, Jong-Uk},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  pages={1721--1729},
+  year={2021}
+}
+```
