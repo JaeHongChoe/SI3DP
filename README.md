@@ -169,7 +169,9 @@ python evaluate.py --kernel-type modal_d_q --data-folder SI3DP/ --enet-type tf_e
 
 ## Acknowledgement 
 
-Overall code structure is borrowed from [this code](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175412). If you want to cite our Datasets [paper](https://dl.acm.org/doi/10.1145/3474085.3475316) and code, you can use these:
+This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT)(NRF-2020R1C1C1013433). Overall code structure is borrowed from [this code](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/175412). 
+
+If you want to cite our Datasets [paper](https://dl.acm.org/doi/10.1145/3474085.3475316) and code, you can use these:
 
 ```bibtex
 @inproceedings{shim2021si3dp,
