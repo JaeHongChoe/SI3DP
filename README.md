@@ -33,7 +33,7 @@ CUDA Version 11.0
         conda install git
         pip install git+https://github.com/ildoonet/pytorch-gradual-warmup-lr.git
 
-## DATA SETUP 
+## Dataset 
 
 Sign up through the link below to receive Dataset and csv.
 
