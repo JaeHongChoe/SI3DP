@@ -37,7 +37,7 @@ CUDA Version 11.0
 
 Sign up through the link below to receive Dataset and csv.
 
-#### [link](https://forms.gle/jCEDjdL5caaU1QrRA)
+### [Register link](https://forms.gle/jCEDjdL5caaU1QrRA)
 
 Download [7zip](https://www.7-zip.org) and unzip your dataset. Create a `data` folder with `SI3DP` folder as a sub-path.
 
