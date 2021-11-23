@@ -35,7 +35,7 @@ CUDA Version 11.0
 
 ## DATA SETUP 
 
-Click [***here***](https://forms.gle/jCEDjdL5caaU1QrRA) to submit your information to download Dataset and csv.
+Click [**here**](https://forms.gle/jCEDjdL5caaU1QrRA) to submit your information to download Dataset and csv.
 
 Download [7zip](https://www.7-zip.org) and unzip your dataset. Create a `data` folder with `SI3DP` folder as a sub-path.
 
