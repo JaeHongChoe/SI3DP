@@ -9,7 +9,7 @@ SI3DP lays the foundation for a new 3D content market by establishing a content 
 
 
 
-## SOFTWARE 
+## Setup 
 
 
 Python 3.7.0 ~ 3.7.9
