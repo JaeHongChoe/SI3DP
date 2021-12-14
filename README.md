@@ -18,7 +18,7 @@ CUDA Version 11.0
 
 (See details of python package in `requirements.txt`)
 
-1. Nvidia driver, CUDA toolkit 11.0, install Anaconda
+1. Nvidia driver, CUDA toolkit 11.0, install Anaconda.
 
 2. Install pytorch 
 
