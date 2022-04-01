@@ -37,7 +37,7 @@ CUDA Version 11.0
 
 Sign up through the link below to receive Dataset and csv.
 
-### [Register link](https://forms.gle/jCEDjdL5caaU1QrRA)
+### [Register link](https://forms.gle/nasNVq5WAJS8QtRk6)
 
 Please cite if you use the data.
 
