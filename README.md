@@ -172,7 +172,7 @@ python evaluate.py --kernel-type modal_d_q --data-folder SI3DP/ --enet-type tf_e
 
 ## Citation 
 
-If you want to cite our Datasets [paper](https://dl.acm.org/doi/10.1145/3474085.3475316) and code, you can use these:
+If you want to cite our Datasets [paper](https://dl.acm.org/doi/10.1145/3474085.3475316) and code, you can use a bibtex code here:
 
 ```bibtex
 @inproceedings{shim2021si3dp,
