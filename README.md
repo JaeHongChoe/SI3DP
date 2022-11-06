@@ -39,7 +39,6 @@ Sign up through the link below to receive Dataset and csv.
 
 ### [Register link](https://forms.gle/nasNVq5WAJS8QtRk6)
 
-Please cite if you use the data.
 
 ----
 
